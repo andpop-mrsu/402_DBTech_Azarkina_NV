@@ -1,0 +1,16 @@
+{
+    "name": "pumushka/tic-tac-toe",
+    "autoload": {
+		"psr-4": {
+            "PUMUSHKA\\TicTacToe\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.21"
+    },
+    "bin": ["bin/start.php"]
+}
